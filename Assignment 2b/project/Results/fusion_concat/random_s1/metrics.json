@@ -1,0 +1,16 @@
+{
+  "pipeline": "fusion_concat",
+  "split": "random_s1",
+  "test_acc": 0.9928571428571429,
+  "macro_f1": 0.9928760015047884,
+  "n_test": 420,
+  "per_class_f1": {
+    "angry": 1.0,
+    "disgust": 0.9915966386554622,
+    "fear": 1.0,
+    "happy": 0.9915966386554622,
+    "neutral": 0.9915966386554622,
+    "pleasant_surprise": 0.9836065573770492,
+    "sad": 0.9917355371900827
+  }
+}

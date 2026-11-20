@@ -1,0 +1,9 @@
+variant,file,type,label,start,end,dur_ms
+arpa,F2BJRLP1,min-length phone,AH0,20.7,20.71,10
+arpa,F2BJRLP1,min-length phone,AH0,23.44,23.45,10
+arpa_adapted,F2BJRLP1,min-length phone,AH0,20.7,20.71,10
+arpa_adapted,F2BJRLP1,min-length phone,AH0,23.44,23.45,10
+mfa,ISLE_SESS0131_BLOCKD02_01_sprt1,very long word,bait,1.7,4.125,2425
+mfa,ISLE_SESS0131_BLOCKD02_03_sprt1,very long word,bed,1.47,4.5,3030
+mfa_nonnative,ISLE_SESS0131_BLOCKD02_01_sprt1,very long word,bait,1.7,4.125,2425
+mfa_nonnative,ISLE_SESS0131_BLOCKD02_03_sprt1,very long word,bed,1.47,4.5,3030

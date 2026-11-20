@@ -1,0 +1,6 @@
+split,id,speaker,word,true,pred,confidence,correct
+spk_OAF2YAF,YAF_SEIZE_PS,YAF,seize,pleasant_surprise,happy,0.9459,0
+spk_OAF2YAF,YAF_MILL_PS,YAF,mill,pleasant_surprise,happy,0.9454,0
+spk_OAF2YAF,YAF_NICE_PS,YAF,nice,pleasant_surprise,happy,0.9454,0
+spk_OAF2YAF,YAF_ROOM_PS,YAF,room,pleasant_surprise,happy,0.9453,0
+spk_OAF2YAF,YAF_PHONE_PS,YAF,phone,pleasant_surprise,happy,0.9452,0

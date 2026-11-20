@@ -1,0 +1,11 @@
+split,id,speaker,word,true,pred,confidence,correct
+random_s0,YAF_RAT_DISGUST,YAF,rat,disgust,angry,0.1637,0
+random_s0,OAF_KILL_SAD,OAF,kill,sad,angry,0.1637,0
+random_s0,OAF_RAT_HAPPY,OAF,rat,happy,angry,0.1637,0
+random_s0,YAF_KILL_HAPPY,YAF,kill,happy,angry,0.1637,0
+random_s0,OAF_KILL_NEUTRAL,OAF,kill,neutral,angry,0.1637,0
+spk_YAF2OAF,OAF_CALM_ANGRY,OAF,calm,angry,sad,0.1730,0
+spk_YAF2OAF,OAF_CALM_DISGUST,OAF,calm,disgust,sad,0.1730,0
+spk_YAF2OAF,OAF_CALM_FEAR,OAF,calm,fear,sad,0.1730,0
+spk_YAF2OAF,OAF_CALM_HAPPY,OAF,calm,happy,sad,0.1730,0
+spk_YAF2OAF,OAF_CALM_NEUTRAL,OAF,calm,neutral,sad,0.1730,0

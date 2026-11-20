@@ -1,0 +1,16 @@
+{
+  "pipeline": "fusion_concat_spknorm",
+  "split": "random_s0",
+  "test_acc": 1.0,
+  "macro_f1": 1.0,
+  "n_test": 420,
+  "per_class_f1": {
+    "angry": 1.0,
+    "disgust": 1.0,
+    "fear": 1.0,
+    "happy": 1.0,
+    "neutral": 1.0,
+    "pleasant_surprise": 1.0,
+    "sad": 1.0
+  }
+}

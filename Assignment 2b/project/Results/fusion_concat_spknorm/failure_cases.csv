@@ -1,0 +1,6 @@
+split,id,speaker,word,true,pred,confidence,correct
+spk_OAF2YAF,YAF_BATH_FEAR,YAF,bath,fear,angry,0.9774,0
+spk_OAF2YAF,YAF_WHIP_HAPPY,YAF,whip,happy,angry,0.9773,0
+spk_OAF2YAF,YAF_MATCH_FEAR,YAF,match,fear,angry,0.9772,0
+spk_OAF2YAF,YAF_HUSH_FEAR,YAF,hush,fear,angry,0.9771,0
+spk_OAF2YAF,YAF_HASH_FEAR,YAF,hash,fear,angry,0.9766,0

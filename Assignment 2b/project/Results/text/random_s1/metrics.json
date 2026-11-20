@@ -1,0 +1,16 @@
+{
+  "pipeline": "text",
+  "split": "random_s1",
+  "test_acc": 0.14523809523809525,
+  "macro_f1": 0.04959020645295155,
+  "n_test": 420,
+  "per_class_f1": {
+    "angry": 0.0,
+    "disgust": 0.0,
+    "fear": 0.0,
+    "happy": 0.24836601307189543,
+    "neutral": 0.09876543209876543,
+    "pleasant_surprise": 0.0,
+    "sad": 0.0
+  }
+}

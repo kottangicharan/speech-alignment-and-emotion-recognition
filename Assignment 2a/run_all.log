@@ -1,0 +1,339 @@
+﻿converted  F2BJRLP1.wav  (25.31s, bit-identical)
+converted  F2BJRLP2.wav  (28.65s, bit-identical)
+converted  F2BJRLP3.wav  (30.71s, bit-identical)
+copied     ISLE_SESS0131_BLOCKD02_01_sprt1.wav
+copied     ISLE_SESS0131_BLOCKD02_02_sprt1.wav
+copied     ISLE_SESS0131_BLOCKD02_03_sprt1.wav
+transcript F2BJRLP1.TXT
+transcript F2BJRLP2.TXT  (2 split number(s) fixed)
+transcript F2BJRLP3.TXT  (1 split number(s) fixed)
+transcript ISLE_SESS0131_BLOCKD02_01_sprt1.txt
+transcript ISLE_SESS0131_BLOCKD02_02_sprt1.txt
+transcript ISLE_SESS0131_BLOCKD02_03_sprt1.txt
+
+> mfa validate M:\iit ASS-2\Ass_2\Assignment 2a\corpus M:\iit ASS-2\Ass_2\Assignment 2a\dictionaries\custom_arpa.dict --ignore_acoustics --clean
+python.exe :  INFO     Setting up corpus information...                                     
+At line:1 char:538
++ ... SS-2\Ass_2\Assignment 2a"; & python run_all.py *> run_all.log; "exit  ...
++                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ( INFO     Setti...               :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+ INFO     Loading corpus from source files...                                  
+   6% --                                  6/100  [ 0:00:02 < -:--:-- , ? it/s ]
+ INFO     Found 2 speakers across 6 files, average number of utterances per    
+          speaker: 3.0                                                         
+ INFO     Initializing multiprocessing jobs...                                 
+ WARNING  Number of jobs was specified as 3, but due to only having 2 speakers,
+          MFA will only use 2 jobs. Use the --single_speaker flag if you would 
+          like to split utterances across jobs regardless of their speaker.    
+ INFO     Normalizing text...                                                  
+ 100% ------------------------------------- 6/6  [ 0:00:01 < 0:00:00 , ? it/s ]
+ INFO     Skipping acoustic feature generation                                 
+ INFO     Corpus                                                               
+ INFO     6 sound files                                                        
+ INFO     6 text files                                                         
+ INFO     2 speakers                                                           
+ INFO     6 utterances                                                         
+ INFO     97.163 seconds total duration                                        
+ INFO     Sound file read errors                                               
+ INFO     There were no issues reading sound files.                            
+ INFO     Feature generation                                                   
+ INFO     Acoustic feature generation was skipped.                             
+ INFO     Files without transcriptions                                         
+ INFO     There were no sound files missing transcriptions.                    
+ INFO     Transcriptions without sound files                                   
+ INFO     There were no transcription files missing sound files.               
+ INFO     Dictionary                                                           
+ INFO     Out of vocabulary words                                              
+ INFO     There were no missing words from the dictionary. If you plan on using
+          the a model trained on this dataset to align other datasets in the   
+          future, it is recommended that there be at least some missing words. 
+ INFO     Skipping test alignments.                                            
+ INFO     Done! Everything took 159.927 seconds                                
+
+> mfa validate M:\iit ASS-2\Ass_2\Assignment 2a\corpus M:\iit ASS-2\Ass_2\Assignment 2a\dictionaries\custom_mfa.dict --ignore_acoustics --clean
+ INFO     Setting up corpus information...                                     
+ INFO     Loading corpus from source files...                                  
+   6% --                                  6/100  [ 0:00:02 < -:--:-- , ? it/s ]
+ INFO     Found 2 speakers across 6 files, average number of utterances per    
+          speaker: 3.0                                                         
+ INFO     Initializing multiprocessing jobs...                                 
+ WARNING  Number of jobs was specified as 3, but due to only having 2 speakers,
+          MFA will only use 2 jobs. Use the --single_speaker flag if you would 
+          like to split utterances across jobs regardless of their speaker.    
+ INFO     Normalizing text...                                                  
+ 100% ------------------------------------- 6/6  [ 0:00:01 < 0:00:00 , ? it/s ]
+ INFO     Skipping acoustic feature generation                                 
+ INFO     Corpus                                                               
+ INFO     6 sound files                                                        
+ INFO     6 text files                                                         
+ INFO     2 speakers                                                           
+ INFO     6 utterances                                                         
+ INFO     97.163 seconds total duration                                        
+ INFO     Sound file read errors                                               
+ INFO     There were no issues reading sound files.                            
+ INFO     Feature generation                                                   
+ INFO     Acoustic feature generation was skipped.                             
+ INFO     Files without transcriptions                                         
+ INFO     There were no sound files missing transcriptions.                    
+ INFO     Transcriptions without sound files                                   
+ INFO     There were no transcription files missing sound files.               
+ INFO     Dictionary                                                           
+ INFO     Out of vocabulary words                                              
+ INFO     There were no missing words from the dictionary. If you plan on using
+          the a model trained on this dataset to align other datasets in the   
+          future, it is recommended that there be at least some missing words. 
+ INFO     Skipping test alignments.                                            
+ INFO     Done! Everything took 54.868 seconds                                 
+
+> mfa validate M:\iit ASS-2\Ass_2\Assignment 2a\corpus M:\iit ASS-2\Ass_2\Assignment 2a\dictionaries\custom_nonnative.dict --ignore_acoustics --clean
+ INFO     Setting up corpus information...                                     
+ INFO     Loading corpus from source files...                                  
+   6% --                                  6/100  [ 0:00:01 < -:--:-- , ? it/s ]
+ INFO     Found 2 speakers across 6 files, average number of utterances per    
+          speaker: 3.0                                                         
+ INFO     Initializing multiprocessing jobs...                                 
+ WARNING  Number of jobs was specified as 3, but due to only having 2 speakers,
+          MFA will only use 2 jobs. Use the --single_speaker flag if you would 
+          like to split utterances across jobs regardless of their speaker.    
+ INFO     Normalizing text...                                                  
+ 100% ------------------------------------- 6/6  [ 0:00:01 < 0:00:00 , ? it/s ]
+ INFO     Skipping acoustic feature generation                                 
+ INFO     Corpus                                                               
+ INFO     6 sound files                                                        
+ INFO     6 text files                                                         
+ INFO     2 speakers                                                           
+ INFO     6 utterances                                                         
+ INFO     97.163 seconds total duration                                        
+ INFO     Sound file read errors                                               
+ INFO     There were no issues reading sound files.                            
+ INFO     Feature generation                                                   
+ INFO     Acoustic feature generation was skipped.                             
+ INFO     Files without transcriptions                                         
+ INFO     There were no sound files missing transcriptions.                    
+ INFO     Transcriptions without sound files                                   
+ INFO     There were no transcription files missing sound files.               
+ INFO     Dictionary                                                           
+ INFO     Out of vocabulary words                                              
+ INFO     There were no missing words from the dictionary. If you plan on using
+          the a model trained on this dataset to align other datasets in the   
+          future, it is recommended that there be at least some missing words. 
+ INFO     Skipping test alignments.                                            
+ INFO     Done! Everything took 30.447 seconds                                 
+
+> mfa align M:\iit ASS-2\Ass_2\Assignment 2a\corpus M:\iit ASS-2\Ass_2\Assignment 2a\dictionaries\custom_arpa.dict english_us_arpa M:\iit ASS-2\Ass_2\Assignment 2a\outputs\arpa --clean --output_format long_textgrid --beam 100 --retry_beam 400 -j 6
+ INFO     Setting up corpus information...                                     
+ INFO     Loading corpus from source files...                                  
+   6% --                                  6/100  [ 0:00:02 < -:--:-- , ? it/s ]
+ INFO     Found 2 speakers across 6 files, average number of utterances per    
+          speaker: 3.0                                                         
+ INFO     Initializing multiprocessing jobs...                                 
+ WARNING  Number of jobs was specified as 6, but due to only having 2 speakers,
+          MFA will only use 2 jobs. Use the --single_speaker flag if you would 
+          like to split utterances across jobs regardless of their speaker.    
+ INFO     Normalizing text...                                                  
+ 100% ------------------------------------- 6/6  [ 0:00:01 < 0:00:00 , ? it/s ]
+ INFO     Generating MFCCs...                                                  
+ 100% ------------------------------------- 6/6  [ 0:00:12 < 0:00:00 , 3 it/s ]
+ INFO     Calculating CMVN...                                                  
+ INFO     Generating final features...                                         
+ 100% ------------------------------------- 6/6  [ 0:00:01 < 0:00:00 , ? it/s ]
+ INFO     Creating corpus split...                                             
+ 100% ------------------------------------- 6/6  [ 0:00:01 < 0:00:00 , ? it/s ]
+ INFO     Compiling training graphs...                                         
+ INFO     Performing first-pass alignment...                                   
+ INFO     Generating alignments...                                             
+ 100% ------------------------------------- 6/6  [ 0:00:08 < 0:00:00 , ? it/s ]
+ INFO     Calculating fMLLR for speaker adaptation...                          
+ 100% ------------------------------------- 6/6  [ 0:00:03 < 0:00:00 , ? it/s ]
+ INFO     Performing second-pass alignment...                                  
+ INFO     Generating alignments...                                             
+ 100% ------------------------------------- 6/6  [ 0:00:06 < 0:00:00 , ? it/s ]
+ INFO     Collecting phone and word alignments from alignment lattices...      
+ 100% ------------------------------------- 6/6  [ 0:00:17 < 0:00:00 , 2 it/s ]
+ INFO     Analyzing alignment quality...                                       
+ 100% ------------------------------------- 6/6  [ 0:00:02 < 0:00:00 , ? it/s ]
+ INFO     Exporting alignment TextGrids to M:\iit ASS-2\Ass_2\Assignment       
+          2a\outputs\arpa...                                                   
+ 100% ------------------------------------- 6/6  [ 0:00:18 < 0:00:00 , 2 it/s ]
+ INFO     Finished exporting TextGrids to M:\iit ASS-2\Ass_2\Assignment        
+          2a\outputs\arpa!                                                     
+ INFO     Done! Everything took 294.300 seconds                                
+
+> mfa align M:\iit ASS-2\Ass_2\Assignment 2a\corpus M:\iit ASS-2\Ass_2\Assignment 2a\dictionaries\custom_mfa.dict english_mfa M:\iit ASS-2\Ass_2\Assignment 2a\outputs\mfa --clean --output_format long_textgrid --beam 100 --retry_beam 400 -j 6
+ INFO     Setting up corpus information...                                     
+ INFO     Loading corpus from source files...                                  
+   6% --                                  6/100  [ 0:00:02 < -:--:-- , ? it/s ]
+ INFO     Found 2 speakers across 6 files, average number of utterances per    
+          speaker: 3.0                                                         
+ INFO     Initializing multiprocessing jobs...                                 
+ WARNING  Number of jobs was specified as 6, but due to only having 2 speakers,
+          MFA will only use 2 jobs. Use the --single_speaker flag if you would 
+          like to split utterances across jobs regardless of their speaker.    
+ INFO     Normalizing text...                                                  
+ 100% ------------------------------------- 6/6  [ 0:00:01 < 0:00:00 , ? it/s ]
+ INFO     Generating MFCCs...                                                  
+ 100% ------------------------------------- 6/6  [ 0:00:10 < 0:00:00 , ? it/s ]
+ INFO     Calculating CMVN...                                                  
+ INFO     Generating final features...                                         
+ 100% ------------------------------------- 6/6  [ 0:00:01 < 0:00:00 , ? it/s ]
+ INFO     Creating corpus split...                                             
+ 100% ------------------------------------- 6/6  [ 0:00:01 < 0:00:00 , ? it/s ]
+ INFO     Compiling training graphs...                                         
+ INFO     Performing first-pass alignment...                                   
+ INFO     Generating alignments...                                             
+ 100% ------------------------------------- 6/6  [ 0:00:10 < 0:00:00 , ? it/s ]
+ INFO     Calculating fMLLR for speaker adaptation...                          
+ 100% ------------------------------------- 6/6  [ 0:00:03 < 0:00:00 , ? it/s ]
+ INFO     Performing second-pass alignment...                                  
+ INFO     Generating alignments...                                             
+ 100% ------------------------------------- 6/6  [ 0:00:09 < 0:00:00 , ? it/s ]
+ INFO     Collecting phone and word alignments from alignment lattices...      
+ 100% ------------------------------------- 6/6  [ 0:00:06 < 0:00:00 , ? it/s ]
+ INFO     Analyzing alignment quality...                                       
+ 100% ------------------------------------- 6/6  [ 0:00:02 < 0:00:00 , ? it/s ]
+ INFO     Exporting alignment TextGrids to M:\iit ASS-2\Ass_2\Assignment       
+          2a\outputs\mfa...                                                    
+ 100% ------------------------------------- 6/6  [ 0:00:16 < 0:00:00 , 2 it/s ]
+ INFO     Finished exporting TextGrids to M:\iit ASS-2\Ass_2\Assignment        
+          2a\outputs\mfa!                                                      
+ INFO     Done! Everything took 140.658 seconds                                
+
+> mfa align M:\iit ASS-2\Ass_2\Assignment 2a\corpus M:\iit ASS-2\Ass_2\Assignment 2a\dictionaries\custom_nonnative.dict english_mfa M:\iit ASS-2\Ass_2\Assignment 2a\outputs\mfa_nonnative --clean --output_format long_textgrid --beam 100 --retry_beam 400 -j 6
+ INFO     Setting up corpus information...                                     
+ INFO     Loading corpus from source files...                                  
+   6% --                                  6/100  [ 0:00:01 < -:--:-- , ? it/s ]
+ INFO     Found 2 speakers across 6 files, average number of utterances per    
+          speaker: 3.0                                                         
+ INFO     Initializing multiprocessing jobs...                                 
+ WARNING  Number of jobs was specified as 6, but due to only having 2 speakers,
+          MFA will only use 2 jobs. Use the --single_speaker flag if you would 
+          like to split utterances across jobs regardless of their speaker.    
+ INFO     Normalizing text...                                                  
+ 100% ------------------------------------- 6/6  [ 0:00:01 < 0:00:00 , ? it/s ]
+ INFO     Generating MFCCs...                                                  
+ 100% ------------------------------------- 6/6  [ 0:00:10 < 0:00:00 , ? it/s ]
+ INFO     Calculating CMVN...                                                  
+ INFO     Generating final features...                                         
+ 100% ------------------------------------- 6/6  [ 0:00:01 < 0:00:00 , ? it/s ]
+ INFO     Creating corpus split...                                             
+ 100% ------------------------------------- 6/6  [ 0:00:01 < 0:00:00 , ? it/s ]
+ INFO     Compiling training graphs...                                         
+ INFO     Performing first-pass alignment...                                   
+ INFO     Generating alignments...                                             
+ 100% ------------------------------------- 6/6  [ 0:00:10 < 0:00:00 , ? it/s ]
+ INFO     Calculating fMLLR for speaker adaptation...                          
+ 100% ------------------------------------- 6/6  [ 0:00:02 < 0:00:00 , ? it/s ]
+ INFO     Performing second-pass alignment...                                  
+ INFO     Generating alignments...                                             
+ 100% ------------------------------------- 6/6  [ 0:00:07 < 0:00:00 , ? it/s ]
+ INFO     Collecting phone and word alignments from alignment lattices...      
+ 100% ------------------------------------- 6/6  [ 0:00:03 < 0:00:00 , ? it/s ]
+ INFO     Analyzing alignment quality...                                       
+ 100% ------------------------------------- 6/6  [ 0:00:02 < 0:00:00 , ? it/s ]
+ INFO     Exporting alignment TextGrids to M:\iit ASS-2\Ass_2\Assignment       
+          2a\outputs\mfa_nonnative...                                          
+ 100% ------------------------------------- 6/6  [ 0:00:16 < 0:00:00 , 2 it/s ]
+ INFO     Finished exporting TextGrids to M:\iit ASS-2\Ass_2\Assignment        
+          2a\outputs\mfa_nonnative!                                            
+ INFO     Done! Everything took 99.302 seconds                                 
+
+> mfa adapt M:\iit ASS-2\Ass_2\Assignment 2a\corpus M:\iit ASS-2\Ass_2\Assignment 2a\dictionaries\custom_arpa.dict english_us_arpa M:\iit ASS-2\Ass_2\Assignment 2a\work\english_us_arpa_adapted.zip --output_directory M:\iit ASS-2\Ass_2\Assignment 2a\outputs\arpa_adapted --clean --beam 100 --retry_beam 400 -j 6
+ INFO     Generating initial alignments...                                     
+ INFO     Setting up corpus information...                                     
+ INFO     Loading corpus from source files...                                  
+   6% --                                  6/100  [ 0:00:02 < -:--:-- , ? it/s ]
+ INFO     Found 2 speakers across 6 files, average number of utterances per    
+          speaker: 3.0                                                         
+ INFO     Initializing multiprocessing jobs...                                 
+ WARNING  Number of jobs was specified as 6, but due to only having 2 speakers,
+          MFA will only use 2 jobs. Use the --single_speaker flag if you would 
+          like to split utterances across jobs regardless of their speaker.    
+ INFO     Normalizing text...                                                  
+ 100% ------------------------------------- 6/6  [ 0:00:01 < 0:00:00 , ? it/s ]
+ INFO     Generating MFCCs...                                                  
+ 100% ------------------------------------- 6/6  [ 0:00:06 < 0:00:00 , ? it/s ]
+ INFO     Calculating CMVN...                                                  
+ INFO     Generating final features...                                         
+ 100% ------------------------------------- 6/6  [ 0:00:01 < 0:00:00 , ? it/s ]
+ INFO     Creating corpus split...                                             
+ 100% ------------------------------------- 6/6  [ 0:00:01 < 0:00:00 , ? it/s ]
+ INFO     Compiling training graphs...                                         
+ INFO     Performing first-pass alignment...                                   
+ INFO     Generating alignments...                                             
+ 100% ------------------------------------- 6/6  [ 0:00:05 < 0:00:00 , ? it/s ]
+ INFO     Calculating fMLLR for speaker adaptation...                          
+ 100% ------------------------------------- 6/6  [ 0:00:02 < 0:00:00 , ? it/s ]
+ INFO     Performing second-pass alignment...                                  
+ INFO     Generating alignments...                                             
+ 100% ------------------------------------- 6/6  [ 0:00:04 < 0:00:00 , ? it/s ]
+ INFO     Collecting phone and word alignments from alignment lattices...      
+ 100% ------------------------------------- 6/6  [ 0:00:11 < 0:00:00 , ? it/s ]
+ INFO     Adapting pretrained model...                                         
+ INFO     Accumulating statistics...                                           
+ 100% ------------------------------------- 8/6  [ 0:00:01 < 0:00:00 , ? it/s ]
+ INFO     Accumulating statistics...                                           
+ 100% ------------------------------------- 8/6  [ 0:00:01 < 0:00:00 , ? it/s ]
+ INFO     Alignment already done, skipping.                                    
+ INFO     Analyzing alignment quality...                                       
+ 100% ------------------------------------- 6/6  [ 0:00:02 < 0:00:00 , ? it/s ]
+ INFO     Exporting alignment TextGrids to M:\iit ASS-2\Ass_2\Assignment       
+          2a\outputs\arpa_adapted...                                           
+ 100% ------------------------------------- 6/6  [ 0:00:09 < 0:00:00 , 2 it/s ]
+ INFO     Finished exporting TextGrids to M:\iit ASS-2\Ass_2\Assignment        
+          2a\outputs\arpa_adapted!                                             
+ INFO     Done! Everything took 231.326 seconds                                
+# Alignment summary
+
+## Per variant
+| variant | files | words | phones | mean_phone_ms | min_len_phones | unk_words | words_>=1s | speech_log_likelihood | overall_log_likelihood | phone_duration_deviation | snr |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| arpa | 6 | 241 | 1063 | 75.823 | 2 | 0 | 0 | -47.760 | -49.278 | 2.975 | 10.178 |
+| arpa_adapted | 6 | 241 | 1063 | 75.823 | 2 | 0 | 0 | -47.751 | -49.283 | 2.969 | 10.178 |
+| mfa | 6 | 241 | 1046 | 82.022 | 0 | 0 | 2 | -44.768 | -43.043 | 3.779 | 9.662 |
+| mfa_nonnative | 6 | 241 | 1032 | 82.456 | 0 | 0 | 2 | -45.591 | -43.749 | 3.640 | 9.459 |
+
+## Word-boundary agreement between variants (ms)
+| variant_a | variant_b | mean_boundary_diff_ms | F2BJRLP1 | F2BJRLP2 | F2BJRLP3 | ISLE_SESS0131_BLOCKD02_01_sprt1 | ISLE_SESS0131_BLOCKD02_02_sprt1 | ISLE_SESS0131_BLOCKD02_03_sprt1 |
+|---|---|---|---|---|---|---|---|---|
+| arpa | arpa_adapted | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 |
+| arpa | mfa | 90.547 | 6.600 | 8.500 | 9.700 | 231.500 | 35.000 | 252.000 |
+| arpa | mfa_nonnative | 88.550 | 8.900 | 12.200 | 11.700 | 231.500 | 9.000 | 258.000 |
+| arpa_adapted | mfa | 90.547 | 6.600 | 8.500 | 9.700 | 231.500 | 35.000 | 252.000 |
+| arpa_adapted | mfa_nonnative | 88.550 | 8.900 | 12.200 | 11.700 | 231.500 | 9.000 | 258.000 |
+| mfa | mfa_nonnative | 8.809 | 5.200 | 7.400 | 4.200 | 0.000 | 30.000 | 6.000 |
+
+## ISLE minimal pairs
+| variant | file | word | word_ms | phones | vowel | vowel_ms |
+|---|---|---|---|---|---|---|
+| arpa | F2BJRLP3 | new | 160 | N Y UW1 | UW1 | 50 |
+| arpa | ISLE_SESS0131_BLOCKD02_01_sprt1 | white | 410 | W AY1 T | AY1 | 150 |
+| arpa | ISLE_SESS0131_BLOCKD02_01_sprt1 | bait | 450 | B EY1 T | EY1 | 200 |
+| arpa | ISLE_SESS0131_BLOCKD02_02_sprt1 | new | 410 | N Y UW1 | UW1 | 240 |
+| arpa | ISLE_SESS0131_BLOCKD02_02_sprt1 | no | 470 | N OW1 | OW1 | 350 |
+| arpa | ISLE_SESS0131_BLOCKD02_03_sprt1 | bad | 510 | B AE1 D | AE1 | 220 |
+| arpa | ISLE_SESS0131_BLOCKD02_03_sprt1 | bed | 550 | B EH1 D | EH1 | 180 |
+| arpa_adapted | F2BJRLP3 | new | 160 | N Y UW1 | UW1 | 50 |
+| arpa_adapted | ISLE_SESS0131_BLOCKD02_01_sprt1 | white | 410 | W AY1 T | AY1 | 150 |
+| arpa_adapted | ISLE_SESS0131_BLOCKD02_01_sprt1 | bait | 450 | B EY1 T | EY1 | 200 |
+| arpa_adapted | ISLE_SESS0131_BLOCKD02_02_sprt1 | new | 410 | N Y UW1 | UW1 | 240 |
+| arpa_adapted | ISLE_SESS0131_BLOCKD02_02_sprt1 | no | 470 | N OW1 | OW1 | 350 |
+| arpa_adapted | ISLE_SESS0131_BLOCKD02_03_sprt1 | bad | 510 | B AE1 D | AE1 | 220 |
+| arpa_adapted | ISLE_SESS0131_BLOCKD02_03_sprt1 | bed | 550 | B EH1 D | EH1 | 180 |
+| mfa | F2BJRLP3 | new | 160 | ɲ ʉː |  | 0 |
+| mfa | ISLE_SESS0131_BLOCKD02_01_sprt1 | white | 580 | w aj t | aj | 190 |
+| mfa | ISLE_SESS0131_BLOCKD02_01_sprt1 | bait | 2425 | b ej t | ej | 200 |
+| mfa | ISLE_SESS0131_BLOCKD02_02_sprt1 | new | 280 | ɲ ʉː |  | 0 |
+| mfa | ISLE_SESS0131_BLOCKD02_02_sprt1 | no | 500 | n ow | ow | 380 |
+| mfa | ISLE_SESS0131_BLOCKD02_03_sprt1 | bad | 510 | b æ d | æ | 220 |
+| mfa | ISLE_SESS0131_BLOCKD02_03_sprt1 | bed | 3030 | b ɛ d | ɛ | 190 |
+| mfa_nonnative | F2BJRLP3 | new | 160 | ɲ uː | uː | 60 |
+| mfa_nonnative | ISLE_SESS0131_BLOCKD02_01_sprt1 | white | 580 | ʋ aj ʈ | aj | 190 |
+| mfa_nonnative | ISLE_SESS0131_BLOCKD02_01_sprt1 | bait | 2425 | b e t | e | 200 |
+| mfa_nonnative | ISLE_SESS0131_BLOCKD02_02_sprt1 | new | 430 | ɲ uː | uː | 250 |
+| mfa_nonnative | ISLE_SESS0131_BLOCKD02_02_sprt1 | no | 500 | n əw | əw | 380 |
+| mfa_nonnative | ISLE_SESS0131_BLOCKD02_03_sprt1 | bad | 480 | b a d | a | 220 |
+| mfa_nonnative | ISLE_SESS0131_BLOCKD02_03_sprt1 | bed | 3030 | b ɛ d | ɛ | 190 |
+
+## Anomalies: 8 (see anomalies.csv)

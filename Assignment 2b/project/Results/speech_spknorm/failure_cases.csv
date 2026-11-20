@@ -1,0 +1,9 @@
+split,id,speaker,word,true,pred,confidence,correct
+random_s1,OAF_BOAT_DISGUST,OAF,boat,disgust,pleasant_surprise,0.5516,0
+random_s0,OAF_SOAP_PS,OAF,soap,pleasant_surprise,disgust,0.4826,0
+random_s0,OAF_HOME_PS,OAF,home,pleasant_surprise,disgust,0.4596,0
+spk_OAF2YAF,YAF_ROUGH_HAPPY,YAF,rough,happy,angry,0.9243,0
+spk_OAF2YAF,YAF_HALF_HAPPY,YAF,half,happy,angry,0.9236,0
+spk_OAF2YAF,YAF_ROOM_ANGRY,YAF,room,angry,neutral,0.9211,0
+spk_OAF2YAF,YAF_WIFE_HAPPY,YAF,wife,happy,angry,0.9189,0
+spk_OAF2YAF,YAF_TIP_ANGRY,YAF,tip,angry,neutral,0.9175,0

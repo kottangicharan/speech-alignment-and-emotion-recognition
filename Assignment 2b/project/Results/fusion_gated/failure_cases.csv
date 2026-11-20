@@ -1,0 +1,7 @@
+split,id,speaker,word,true,pred,confidence,correct
+random_s0,YAF_BOAT_ANGRY,YAF,boat,angry,neutral,0.4342,0
+spk_OAF2YAF,YAF_LOT_HAPPY,YAF,lot,happy,angry,0.9419,0
+spk_OAF2YAF,YAF_KICK_HAPPY,YAF,kick,happy,angry,0.9410,0
+spk_OAF2YAF,YAF_TOUGH_HAPPY,YAF,tough,happy,angry,0.9388,0
+spk_OAF2YAF,YAF_HIT_HAPPY,YAF,hit,happy,angry,0.9386,0
+spk_YAF2OAF,OAF_GET_NEUTRAL,OAF,get,neutral,angry,0.9355,0

@@ -1,0 +1,7 @@
+variant_a,variant_b,mean_boundary_diff_ms,F2BJRLP1,F2BJRLP2,F2BJRLP3,ISLE_SESS0131_BLOCKD02_01_sprt1,ISLE_SESS0131_BLOCKD02_02_sprt1,ISLE_SESS0131_BLOCKD02_03_sprt1
+arpa,arpa_adapted,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+arpa,mfa,90.546659183225,6.6,8.5,9.7,231.5,35.0,252.0
+arpa,mfa_nonnative,88.54965026210878,8.9,12.2,11.7,231.5,9.0,258.0
+arpa_adapted,mfa,90.546659183225,6.6,8.5,9.7,231.5,35.0,252.0
+arpa_adapted,mfa_nonnative,88.54965026210878,8.9,12.2,11.7,231.5,9.0,258.0
+mfa,mfa_nonnative,8.808997054022674,5.2,7.4,4.2,0.0,30.0,6.0

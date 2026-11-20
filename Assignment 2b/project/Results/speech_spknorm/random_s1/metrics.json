@@ -1,0 +1,16 @@
+{
+  "pipeline": "speech_spknorm",
+  "split": "random_s1",
+  "test_acc": 0.9976190476190476,
+  "macro_f1": 0.9976188822636493,
+  "n_test": 420,
+  "per_class_f1": {
+    "angry": 1.0,
+    "disgust": 0.9915966386554622,
+    "fear": 1.0,
+    "happy": 1.0,
+    "neutral": 1.0,
+    "pleasant_surprise": 0.9917355371900827,
+    "sad": 1.0
+  }
+}

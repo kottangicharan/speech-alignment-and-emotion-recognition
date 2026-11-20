@@ -1,0 +1,11 @@
+split,id,speaker,word,true,pred,confidence,correct
+random_s2,YAF_BOOK_SAD,YAF,book,sad,neutral,0.8475,0
+random_s1,YAF_SHEEP_HAPPY,YAF,sheep,happy,pleasant_surprise,0.7353,0
+random_s0,YAF_KITE_NEUTRAL,YAF,kite,neutral,sad,0.6638,0
+random_s1,YAF_LONG_NEUTRAL,YAF,long,neutral,sad,0.5526,0
+random_s1,OAF_SAID_DISGUST,OAF,said,disgust,pleasant_surprise,0.5256,0
+spk_OAF2YAF,YAF_KNOCK_NEUTRAL,YAF,knock,neutral,sad,0.9521,0
+spk_OAF2YAF,YAF_NEAT_NEUTRAL,YAF,neat,neutral,sad,0.9414,0
+spk_OAF2YAF,YAF_CAME_NEUTRAL,YAF,came,neutral,sad,0.9399,0
+spk_OAF2YAF,YAF_LOT_NEUTRAL,YAF,lot,neutral,sad,0.9396,0
+spk_YAF2OAF,OAF_HASH_NEUTRAL,OAF,hash,neutral,sad,0.9326,0

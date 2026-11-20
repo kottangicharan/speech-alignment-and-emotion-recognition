@@ -1,0 +1,6 @@
+split,id,speaker,word,true,pred,confidence,correct
+spk_OAF2YAF,YAF_TIP_ANGRY,YAF,tip,angry,neutral,0.8960,0
+spk_YAF2OAF,OAF_ROUGH_PS,OAF,rough,pleasant_surprise,disgust,0.8957,0
+spk_YAF2OAF,OAF_MILL_PS,OAF,mill,pleasant_surprise,disgust,0.8926,0
+spk_OAF2YAF,YAF_ROAD_ANGRY,YAF,road,angry,neutral,0.8917,0
+spk_OAF2YAF,YAF_RAG_SAD,YAF,rag,sad,neutral,0.8893,0

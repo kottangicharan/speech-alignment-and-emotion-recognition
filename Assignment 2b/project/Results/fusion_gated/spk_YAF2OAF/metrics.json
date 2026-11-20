@@ -1,0 +1,17 @@
+{
+  "pipeline": "fusion_gated",
+  "split": "spk_YAF2OAF",
+  "test_acc": 0.5921428571428572,
+  "macro_f1": 0.5288017498092789,
+  "n_test": 1400,
+  "per_class_f1": {
+    "angry": 0.5714285714285714,
+    "disgust": 0.49566294919454773,
+    "fear": 0.8242677824267782,
+    "happy": 0.0,
+    "neutral": 0.8130563798219584,
+    "pleasant_surprise": 0.03864734299516908,
+    "sad": 0.9585492227979274
+  },
+  "mean_gate_speech_weight": 0.7324194312095642
+}

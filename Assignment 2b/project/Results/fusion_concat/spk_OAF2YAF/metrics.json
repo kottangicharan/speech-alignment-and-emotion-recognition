@@ -1,0 +1,16 @@
+{
+  "pipeline": "fusion_concat",
+  "split": "spk_OAF2YAF",
+  "test_acc": 0.56,
+  "macro_f1": 0.5132434821457009,
+  "n_test": 1400,
+  "per_class_f1": {
+    "angry": 0.030864197530864196,
+    "disgust": 0.6006006006006006,
+    "fear": 0.9795918367346939,
+    "happy": 0.0,
+    "neutral": 0.9276807980049875,
+    "pleasant_surprise": 0.12396694214876033,
+    "sad": 0.93
+  }
+}
